@@ -92,7 +92,7 @@ use std::collections::HashMap;
 use bevy::{
   prelude::{
     Bundle, Component, Entity, GlobalTransform, IntoSystemConfigs,
-    IntoSystemSetConfig, Plugin, Query, Res, SystemSet, Update, Vec3, With,
+    IntoSystemSetConfigs, Plugin, Query, Res, SystemSet, Update, Vec3, With,
   },
   time::Time,
 };
